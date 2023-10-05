@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bf3af4e6.css",
+    "main.js": "./static/js/main.6cb3c0f3.js",
+    "static/js/945.e3d55b38.chunk.js": "./static/js/945.e3d55b38.chunk.js",
+    "static/media/promo_main.png": "./static/media/promo_main.0325811b511dd0fcec30.png",
+    "static/media/forCloud_logo.png": "./static/media/forCloud_logo.8fe7ef87dd4b4d99e6f5.png",
+    "index.html": "./index.html"
+  },
+  "entrypoints": [
+    "static/css/main.bf3af4e6.css",
+    "static/js/main.6cb3c0f3.js"
+  ]
+}

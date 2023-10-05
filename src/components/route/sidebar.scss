@@ -1,0 +1,55 @@
+
+
+
+@media (max-width: 2000px) {
+    
+    .sidebar{
+    position: initial;
+    position: static;
+    top: 35vh;
+    left: 10%;
+    height: max-content;
+    margin: 4px;
+    padding: 4px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+
+    &__menu {
+        position:initial;
+        position: static;
+
+        &__item {
+            position:initial;
+            float: left;
+            align-items: center;
+            place-content: flex-start;
+            margin-left: 100px;
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #555555;
+            transition: color 0.3s ease-in-out;
+
+            &.active {
+                color: #555555;
+            }
+
+            &__icon {
+                margin-right: 1rem;
+
+                i {
+                    font-size: 1.00rem;
+                }
+            }
+        }
+
+        &__indicator {
+            display: none;
+        }
+        
+    }
+    }
+    
+}
+
