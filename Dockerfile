@@ -4,7 +4,7 @@ WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 
 COPY . /app/
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --ignore-scripts --unsafe-perm
 RUN npm run build
 
 FROM nginx:latest
