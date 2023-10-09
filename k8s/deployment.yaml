@@ -16,5 +16,5 @@ spec:
       - name: frontend
         image: AWS_ECR_URI
         ports:
-          - containerPort: 3000
+          - containerPort: 80
         imagePullPolicy: Always      
