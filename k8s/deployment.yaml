@@ -17,4 +17,8 @@ spec:
         image: AWS_ECR_URI
         ports:
           - containerPort: 80
-        imagePullPolicy: Always      
+        imagePullPolicy: Always
+        resources:
+          requests:
+            cpu: 100m
+            memory: 500Mi
